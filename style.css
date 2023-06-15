@@ -23,16 +23,21 @@ body {
     margin: 5px auto;
     width: 380px;
     align-items: center;
-    font-size: 55px;
 }
 .timer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    min-width: 90px;
     color: white;
     font-weight: bold;
+    font-size: 55px;
+}
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    min-width: 90px;
 }
 .separator {
     padding: 10px;
